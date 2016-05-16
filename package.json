@@ -1,15 +1,13 @@
 {
-  "name": "logger",
-  "version": "1.0.0",
+  "name": "ang2-logger",
+  "version": "1.1.0",
   "description": "Logger service can be used to log into console. Which can be handled using a flag.",
   "main": "logger.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "prepublish": "tsc",
     "tsc": "tsc",
     "tsc:w": "tsc -w",
-    "typings": "typings"
-
+    "typings": "logger.d.ts"
   },
   "keywords": [
     "logger",
@@ -27,5 +25,13 @@
   "devDependencies": {
     "typescript": "^1.8.10",
     "typings": "^0.8.1"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Anshdesire/angular2-logger.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Anshdesire/angular2-logger/issues"
+  },
+  "homepage": "https://github.com/Anshdesire/angular2-logger#readme"
 }

@@ -6,8 +6,7 @@
         "emitDecoratorMetadata": true,
         "experimentalDecorators": true,
         "sourceMap": true,
-        "declaration": true,
-        "outDir": "www"
+        "declaration": true
     },
     "exclude": [
         "node_modules",
