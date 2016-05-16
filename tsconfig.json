@@ -6,12 +6,10 @@
         "emitDecoratorMetadata": true,
         "experimentalDecorators": true,
         "sourceMap": true,
-        "declaration": true
+        "declaration": true,
+        "outDir": "www"
     },
     "files": [
         "logger.ts"
-    ],
-    "exclude": [
-        "node_modules"
     ]
 }
